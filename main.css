@@ -1,0 +1,205 @@
+body {
+	background-color: #fdffb8;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #112c42;
+}
+
+li {
+  float: left;
+}
+
+li a {
+font-size: 180%;
+  display: block;
+  color: #2d97ed;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+table {
+margin: 10% 10%;
+  border-collapse: collapse;
+  width: 80%;
+  height: 15%;
+}
+
+.bordertab{
+  border: 2px solid black;
+}
+
+
+td {
+  height: 50px;
+  background-color: #ffffff;
+}
+
+th {
+	background-color: #112c42;
+	color: #2d97ed;
+  height: 50px;
+}
+
+
+.info_btn{
+background-color: #0969bd;
+font-size: 100%;
+  color: white;
+  margin: 6px;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.retire_btn{
+background-color: #e60000;
+font-size: 100%;
+  color: white;
+  margin: 6px;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.cpr{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #112c42;
+}
+
+.cpr-text{
+	background-color: #112c42;
+font-size: 80%;
+  color: #2d97ed;
+  margin: 6px;
+  padding: 4px;
+}
+
+.div-arbitre-container {
+	background-color: #e8d65f;
+  display: grid;
+   grid-template-columns: auto auto;
+   margin: 0 3%;
+   padding: 10px;
+}
+
+.div-arbitre-container > div {
+  background-color: #ededed;
+  text-align: center;
+  font-size: 20px;
+}
+
+.div-designation-container {
+	background-color: #e8d65f;
+  display: grid;
+   grid-template-columns: 49% 49%;
+   margin: 0 3%;
+   padding: 1%;
+   padding-right: 0;
+}
+
+.div-designation-container > div {
+  background-color: #ededed;
+  text-align: center;
+  font-size: 20px;
+}
+
+.div-oneblock {
+  grid-column: 1 / span 2;
+}
+
+#concoursmapsquare{
+	padding: 0 400px 150px;
+	height: 400px;
+}
+
+#designationmapsquare{
+	padding: 0 50px 100px;
+	height: 400px;
+}
+
+#map {
+	height: 100%;
+}
+
+.leaflet-container a {
+	color: #faeb16;
+	}
+	
+.leaflet-routing-container {
+    display: none;
+}
+
+.check_btn {
+	color: #faeb16;
+	background-color: #d40700;
+	border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 6px;
+  padding: 4px;
+	}
+	
+@media screen and (max-width: 800px) {
+	.div-arbitre-container {
+   grid-template-columns: auto;
+   margin: 0 1%;
+}
+
+.div-oneblock {
+  grid-column: 1;
+}
+
+.divmap{
+	width: 450px;
+	height: 350px
+}
+
+.div-arbitre-container > div {
+  background-color: #ededed;
+  text-align: center;
+  font-size: 14px;
+}
+
+#concoursmapsquare{
+	padding: 0 50px 150px;
+	height: 400px;
+}
+
+.div-designation-container {
+	background-color: #e8d65f;
+  display: grid;
+   grid-template-columns: 98%;
+   margin: 0 -5px;
+   padding: 1%;
+   padding-right: 0;
+}
+
+.div-designation-container > div {
+  background-color: #ededed;
+  text-align: center;
+  font-size: 15px;
+}
+
+#designationmapsquare{
+	padding: 0 20px 100px;
+	height: 400px;
+}
+
+.divmap{
+	width: 350px;
+	height: 300px
+}
+
+}

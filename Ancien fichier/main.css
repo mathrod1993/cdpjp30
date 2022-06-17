@@ -1,0 +1,26 @@
+
+.info_btn{
+background-color: #0969bd;
+font-size: 80%;
+  color: white;
+  margin: 6px;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.cpr{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #112c42;
+}
+
+.cpr-text{
+font-size: 80%;
+  color: #2d97ed;
+  margin: 6px;
+  padding: 4px;
+}

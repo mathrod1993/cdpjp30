@@ -1,0 +1,48 @@
+/*
+.mainblock{
+    display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    grid-gap: 10px;
+	margin: 5%;
+	padding: 10px;
+	background-color: #99ffff;
+	}
+*/
+
+#datalist{
+	font-size: 150%;
+	margin: auto;
+	width: 50%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.bordertab{
+  border: 2px solid black;
+}
+
+.edit_btn{
+background-color: #0a75c7;
+font-size: 80%;
+  color: white;
+  margin: 6px;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.del_btn{
+background-color: #c7230a;
+font-size: 80%;
+  color: white;
+  margin: 6px;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}

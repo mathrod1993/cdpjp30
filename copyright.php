@@ -1,0 +1,1 @@
+<ul class="cpr"><p class="cpr-text">Comité départemental 30 de la pétanque et du jeu provençal. Tous droits réservés.</p></ul>
